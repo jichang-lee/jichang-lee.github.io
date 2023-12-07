@@ -73,14 +73,12 @@
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
 					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
 						<li><a href="#" data-nav-section="about">About</a></li>
 						<li><a href="#" data-nav-section="skills">Tech Skills</a></li>
 						<li><a href="#" data-nav-section="work">Project</a></li>
 						<li><a href="#" data-nav-section="services">Experience</a></li>
 						<li><a href="#" data-nav-section="experience">Career</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
@@ -107,7 +105,7 @@
 										<span class="heading-meta">About Me</span>
 										<h2 class="colorlib-heading">"Just do it and take it"</h2>
 										<p><strong></strong></p> 
-										<p>🐣 안녕하세요. 과정에서 깨달음을 얻는것을 좋아하는 신입 백엔드 개발자, 이지창입니다. <br> 다양한 것을 보고 경험하는 것을 좋아하고 새로움에 있어서 항상 재미와 흥미를 가지고 있습니다.<br> 특정 무언가 할 때 , 같은 걸 반복하지 않고자 노력하는 성향이 있습니다. 코드를 작성할 때도 <strong>4번 이상</strong> 반복되는 코드를 작성하지 않으려 생각하고 고민하는 개발자 입니다. 사람들과 소통하는 것을 좋아합니다. 새로운 환경에 있어서 사람들과 서로 흥미거리를 공유하고 친밀감을 가지려 노력하는 편 입니다. 자연스럽게 대화가 유연해지고 개발자&비개발자 모두 원활하게 소통할 수 있도록 존중하는 마음가짐을 가지고 있습니다.</p>
+										<p>🐣 <strong>안녕하세요. 과정에서 깨달음을 얻는것을 좋아하는 신입 백엔드 개발자, 이지창입니다.</strong> <br> 다양한 것을 보고 경험하는 것을 좋아하고 새로움에 있어서 항상 재미와 흥미를 가지고 있습니다.<br> 특정 무언가 할 때 , 같은 걸 반복하지 않고자 노력하는 성향이 있습니다. 코드를 작성할 때도 <strong>4번 이상</strong> 반복되는 코드를 작성하지 않으려 생각하고 고민하는 개발자 입니다.<br> 사람들과 소통하는 것을 좋아합니다. 새로운 환경에 있어서 사람들과 서로 흥미거리를 공유하고 친밀감을 가지려 노력하는 편 입니다. 자연스럽게 대화가 유연해지고 개발자&비개발자 모두 원활하게 소통할 수 있도록 존중하는 마음가짐을 가지고 있습니다.</p>
 									</div>
 								</div>
 							</div>
@@ -157,12 +155,7 @@
 			<!-- Tech skills -->	
 			<section class="colorlib-skills" data-section="skills">
 				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">TECH SKILLS</span>
-							<h2 class="colorlib-heading animate-box">The Skills that I can do</h2>
-						</div>
-					</div>
+				
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 							<p>저는 이런 것을 할 수 있습니다.</p>
@@ -257,7 +250,6 @@
 											<p class="icon">
 												<!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
 												<span><a href="https://hyesue-lee.github.io/" target="_blank" ><i class="icon-eye"></i> detail</a></span>
-												<span><a href="#" target="_blank"><i class="icon-file"></i> 구현 기능 상세보기</a></span>
 											</p>
 										</div>
 									</div>
@@ -273,15 +265,14 @@
 					<div class="row">
 						
 							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-								<div class="project" style="background-image: url(images/groupware.png);">
+								<div class="project" style="background-image: url(images/groupware3.jpg);">
 									<div class="desc">
 										<div class="con">
 											<h3><a href="#" target="_blank">Groupware(2022.04)</a></h3>
 											<span>동네 지구대에서 쓸법한 프로젝트입니다.<br> 공지사항 및 캘린더를 통해 서로의 이슈를 확인하고 특정 사건을 확인합니다.</span>
 											<p class="icon">
 												<!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
-												<span><a href="#" target="_blank" ><i class="icon-eye"></i> detail</a></span>
-												<span><a href="#" target="_blank"><i class="icon-file"></i> 구현 기능 상세보기</a></span>
+												<span><a href="https://github.com/jichang-lee/Groupware-Project" target="_blank" ><i class="icon-eye"></i> detail</a></span>
 											</p>
 										</div>
 									</div>
@@ -289,15 +280,14 @@
 							</div>
                         
 							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-								<div class="project" style="background-image: url(images/mixtape.png);">
+								<div class="project" style="background-image: url(images/mixtape4.png);">
 									<div class="desc">
 										<div class="con">
 											<h3><a href="#" target="_blank">Mixtape Seoul(2022.03)</a></h3>
 											<span>모방하여 팀 프로젝트를 진행하였으며 , 음악 제작을 위한 디지털 믹스테이프를 판매, 제공하는 아티스트 타겟 쇼핑몰 프로젝트 입니다.</span>
 											<p class="icon">
 												<!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
-												<span><a href="#" target="_blank" ><i class="icon-eye"></i> detail</a></span>
-												<span><a href="#" target="_blank"><i class="icon-file"></i> 구현 기능 상세보기</a></span>
+												<span><a href="https://github.com/jichang-lee/Mixtape-shopping" target="_blank" ><i class="icon-eye"></i> detail</a></span>
 											</p>
 										</div>
 									</div>
@@ -437,7 +427,7 @@
 
 									<div class="timeline-label">
 										<h2><a href="#" target="_blank">의정부 을지대학교병원 </a> <span>2021.00 ~ 2022.00</span></h2>
-										<p>의정부,노원 을지대학교병원 운영 인프라팀<br> * 그룹웨어 전자결재 유형 수정및 개발<br> * 보안 관리 (사용자 website 접근& 프로그램 라이선스 허용/차단 , network IP 할당 및 관리)<br> * 로컬PC & 병원 솔루션 장비 관리 및 정비</p>
+										<p>의정부,노원 을지대학교병원 운영 인프라팀<br> * 가상화 Virtual Machine 운영 관리자 <br> * 그룹웨어 전자결재 유형 수정및 개발<br> * 보안 관리 (사용자 website 접근& 프로그램 라이선스 허용/차단 , network IP 할당 및 관리)<br> * 로컬PC & 병원 솔루션 장비 관리 및 정비</p>
 									</div>
 									</div>
 								</article>
@@ -580,40 +570,6 @@
 				</div>
 			</section>
 
-			
-
-			
-			<section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta"></span>
-							<h2 class="colorlib-heading"></h2>
-						</div>
-					</div>
-					<div class="row">
-						
-					</div>
-				<!--
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" onclick="return false;" class="btn btn-primary btn-lg btn-load-more"></a></p>
-						</div>
-						<style>
-    .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
-    .embed-container iframe, 
-    .embed-container object, 
-    .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-</style>
-
-<div class="embed-container" >
-    <iframe src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen="" onclick="ga('send', 'event', 'post', 'click', 'youtubePlayer');">
-    </iframe>
-</div>
-					</div>
-				-->
-				</div>
-			</section>
 
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">

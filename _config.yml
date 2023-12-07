@@ -33,10 +33,10 @@ about_header: >-
 #about_introduce: >-
   
 about_content: >-
-  🐣 안녕하세요. 과정에서 깨달음을 얻는것을 좋아하는 신입 백엔드 개발자, 이지창입니다. <br>
+  🐣 <strong>안녕하세요. 과정에서 깨달음을 얻는것을 좋아하는 신입 백엔드 개발자, 이지창입니다.</strong> <br>
   다양한 것을 보고 경험하는 것을 좋아하고 새로움에 있어서 항상 재미와 흥미를 가지고 있습니다.<br>
   특정 무언가 할 때 , 같은 걸 반복하지 않고자 노력하는 성향이 있습니다. 코드를 작성할 때도
-  <strong>4번 이상</strong> 반복되는 코드를 작성하지 않으려 생각하고 고민하는 개발자 입니다.
+  <strong>4번 이상</strong> 반복되는 코드를 작성하지 않으려 생각하고 고민하는 개발자 입니다.<br>
   사람들과 소통하는 것을 좋아합니다. 새로운 환경에 있어서 사람들과 서로 흥미거리를 공유하고 친밀감을 가지려
   노력하는 편 입니다. 자연스럽게 대화가 유연해지고 개발자&비개발자 모두 원활하게 소통할 수 있도록 존중하는 마음가짐을 가지고 있습니다.
 
@@ -113,19 +113,17 @@ project_my: # 형식에 맞추어 항목 추가
 
 project_team_name: 팀 프로젝트
 project_team: # 형식에 맞추어 항목 추가
-- background_url: images/groupware.png
+- background_url: images/groupware3.jpg
   animation: fadeInRight
   name: Groupware(2022.04)
   description: 동네 지구대에서 쓸법한 프로젝트입니다.<br> 공지사항 및 캘린더를 통해 서로의 이슈를 확인하고 특정 사건을 확인합니다. 
-  detail_url: #
-  readmore_url: #
+  detail_url: https://github.com/jichang-lee/Groupware-Project
 
-- background_url: images/mixtape.png
+- background_url: images/mixtape4.png
   animation: fadeInRight
   name: Mixtape Seoul(2022.03)
   description: 모방하여 팀 프로젝트를 진행하였으며 , 음악 제작을 위한 디지털 믹스테이프를 판매, 제공하는 아티스트 타겟 쇼핑몰 프로젝트 입니다.
-  detail_url: #
-  readmore_url: #
+  detail_url: https://github.com/jichang-lee/Mixtape-shopping
 
 project_business_name: Business
 project_business: # 형식에 맞추어 항목 추가
@@ -170,7 +168,7 @@ career_header: Work Career
 career_list:
 - name: 의정부 을지대학교병원    
   date: 2021.00 ~ 2022.00 
-  content: 의정부,노원 을지대학교병원 운영 인프라팀<br> * 그룹웨어 전자결재 유형 수정및 개발<br> * 보안 관리 (사용자 website 접근& 프로그램 라이선스 허용/차단 , network IP 할당 및 관리)<br> * 로컬PC & 병원 솔루션 장비 관리 및 정비
+  content: 의정부,노원 을지대학교병원 운영 인프라팀<br> * 가상화 Virtual Machine 운영 관리자 <br> * 그룹웨어 전자결재 유형 수정및 개발<br> * 보안 관리 (사용자 website 접근& 프로그램 라이선스 허용/차단 , network IP 할당 및 관리)<br> * 로컬PC & 병원 솔루션 장비 관리 및 정비
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
@@ -200,32 +198,6 @@ edu_list:
   content: JAVA와 Spring Boot를 활용한 웹 백엔드 개발자 양성과정
 
 
-
-
-# Blog
-# blog_meta: self-improvement
-# blog_header: BLOG and YOUTUBE
-# blog_load_more: 더 발전하기 위해 항상 노력합니다    # 더보기 내용
-# blog_load_more_url: #
-# blog_list:
-# - title: 깃허브 블로그 
-#   subtitle: 개발 블로그 운영
-#   date: 2021.11
-#   content: 깃 블로그를 직접 개발하여 배운 것들을 꾸준히 기록하며 배움을 나눕니다. 
-#   thumbnail_url: images/gitblog.png
-#   link: https://hyesue-lee.github.io/
-# - title: 유튜브 개발채널
-#   subtitle: 개발 컨텐츠 유튜브 채널 운영 [치얼스헤나]
-#   date: 2020.11
-#   content: 유튜브 채널을 운영하며 같은 분야의 다양한 사람들과 소통하고 있습니다. 
-#   thumbnail_url: images/youtube.png
-#   link: https://youtube.com/channel/UC6YIWKSsY_J7rMYfAb7_tOw
-# - title: 티스토리 블로그 
-#   subtitle: 이전 블로그
-#   date: 2018.03
-#   content: 2018년부터 꾸준히 기록하였던 티스토리 첫 블로그 입니다. 
-#   thumbnail_url: images/ti.png
-#   link: https://cheershennah.tistory.com/
 
 
 # Contact

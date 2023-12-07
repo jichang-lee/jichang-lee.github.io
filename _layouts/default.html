@@ -73,14 +73,12 @@
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
 					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
 						<li><a href="#" data-nav-section="about">About</a></li>
 						<li><a href="#" data-nav-section="skills">Tech Skills</a></li>
 						<li><a href="#" data-nav-section="work">Project</a></li>
 						<li><a href="#" data-nav-section="services">Experience</a></li>
 						<li><a href="#" data-nav-section="experience">Career</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
@@ -157,12 +155,7 @@
 			<!-- Tech skills -->	
 			<section class="colorlib-skills" data-section="skills">
 				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">{{ site.tech_meta }}</span>
-							<h2 class="colorlib-heading animate-box">{{ site.tech_header }}</h2>
-						</div>
-					</div>
+				
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 							<p>{{ site.tech_content }}</p>
@@ -225,7 +218,6 @@
 											<p class="icon">
 												<!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
 												<span><a href="{{ proj.detail_url | default: "#" }}" target="_blank" ><i class="icon-eye"></i> detail</a></span>
-												<span><a href="{{ proj.readmore_url | default: "#" }}" target="_blank"><i class="icon-file"></i> 구현 기능 상세보기</a></span>
 											</p>
 										</div>
 									</div>
@@ -249,7 +241,6 @@
 											<p class="icon">
 												<!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
 												<span><a href="{{ proj.detail_url | default: "#" }}" target="_blank" ><i class="icon-eye"></i> detail</a></span>
-												<span><a href="{{ proj.readmore_url | default: "#" }}" target="_blank"><i class="icon-file"></i> 구현 기능 상세보기</a></span>
 											</p>
 										</div>
 									</div>
@@ -440,41 +431,6 @@
 				</div>
 			</section>
 
-			
-
-			
-			<section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">{{ site.blog_meta }}</span>
-							<h2 class="colorlib-heading">{{ site.blog_header }}</h2>
-						</div>
-					</div>
-					<div class="row">
-						{% for blog in site.blog_list %}
-							<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-								<div class="blog-entry">
-									<a href="{{ blog.link | default: '#'}}" target="_blank" class="blog-img"><img src="{{ blog.thumbnail_url }}" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-									<div class="desc">
-										<span><small>since {{ blog.date }} </small> | <small> {{ blog.subtitle }}</small> </span>
-										<h3><a href="{{ blog.link | default: '#'}}" target="_blank">{{ blog.title }}</a></h3>
-										<p>{{ blog.content }}</p>
-									</div>
-								</div>
-							</div>
-						{% endfor %}
-					</div>
-				<!--
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="{{ site.blog_load_more_url | default: '#'}}" onclick="return false;" class="btn btn-primary btn-lg btn-load-more">{{ site.blog_load_more }}</a></p>
-						</div>
-						{% include youtubeplayer.html id=site.youtube_vid %}
-					</div>
-				-->
-				</div>
-			</section>
 
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
