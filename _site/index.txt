@@ -242,14 +242,14 @@
 					<div class="row">
 						
 							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-								<div class="project" style="background-image: url(images/gitblog.png);">
+								<div class="project" style="background-image: url(images/main1.jpg);">
 									<div class="desc">
 										<div class="con">
 											<h3><a href="#" target="_blank" >DEV blog</a></h3>
-											<span>깃 블로그를 직접 개발하여 배운 것들을 꾸준히 기록하며 배움을 나눕니다.</span>
+											<span>준비중</span>
 											<p class="icon">
 												<!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
-												<span><a href="https://hyesue-lee.github.io/" target="_blank" ><i class="icon-eye"></i> detail</a></span>
+												<span><a href="#" target="_blank" ><i class="icon-eye"></i> detail</a></span>
 											</p>
 										</div>
 									</div>

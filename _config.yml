@@ -104,11 +104,11 @@ project_my: # 형식에 맞추어 항목 추가
 #   detail_url: #
 #   readmore_url: #
 
-- background_url: images/gitblog.png
+- background_url: images/main1.jpg
   animation: fadeInLeft
   name: DEV blog
-  description: 깃 블로그를 직접 개발하여 배운 것들을 꾸준히 기록하며 배움을 나눕니다. 
-  detail_url: https://hyesue-lee.github.io/
+  description: 준비중
+  detail_url: 
   readmore_url: #
 
 project_team_name: 팀 프로젝트
