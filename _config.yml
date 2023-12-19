@@ -85,8 +85,9 @@ tech_list: # 형식에 맞추어 항목 추가
   percent: 30
   mark: 30
   content: 모든 프로젝트를 github를 통해 소스 코드를 관리하였습니다. 협업 당시에는 SourceTree 를 사용하였고, 실제 서비스 배포할 때 어떤 방식으로 반영하는지에 대한 구조를 습득하고 이해하였습니다.
-tech_desc: 이 외 인턴 활동 당시<strong> javascript, vue.js</strong> 등을 새로 배워가며 공부했습니다.<br>현재는<strong> Java & Spring Boot</strong> 의 기초를 좀 더 가꾸고 있습니다.
-
+tech_Bskill: Backend - JAVA , Spring Boot , Spring Data JPA , Spring MVC , Spring security , Spring Docs 
+tech_Fskill: Frontend - HTML , CSS , javascript , Vue.js
+tech_Dskill: Dev - intelliJ , visual studio code , MySQL , Sorucetree
 
 # Project
 project_meta: My Work
@@ -167,7 +168,7 @@ carerr_meta: career
 career_header: Work Career
 career_list:
 - name: 의정부 을지대학교병원    
-  date: 2021.00 ~ 2022.00 
+  date: 2020.08 ~ 2022.08 
   content: 의정부,노원 을지대학교병원 운영 인프라팀<br> * 가상화 Virtual Machine 운영 관리자 <br> * 그룹웨어 전자결재 유형 수정및 개발<br> * 보안 관리 (사용자 website 접근& 프로그램 라이선스 허용/차단 , network IP 할당 및 관리)<br> * 로컬PC & 병원 솔루션 장비 관리 및 정비
   color: color-2
   icon: icon-pen2

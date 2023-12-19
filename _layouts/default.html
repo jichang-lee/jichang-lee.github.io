@@ -158,7 +158,7 @@
 				
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>{{ site.tech_content }}</p>
+							<p><strong>{{ site.tech_content }}</strong></p>
 							<br>
 						</div>
 						{%- for tech in site.tech_list -%}
@@ -166,10 +166,10 @@
 								<div class="progress-wrap">
 									<h3><strong>{{ tech.name }}</strong></h3>
 									<div class="progress">
-										<div class="progress-bar {{ tech.color | default: "color-1" }}" role="progressbar" aria-valuenow="{{ tech.mark }}"
+										<!-- <div class="progress-bar {{ tech.color | default: "color-1" }}" role="progressbar" aria-valuenow="{{ tech.mark }}"
 										aria-valuemin="0" aria-valuemax="100" style="width: {{ tech.mark }}%">
 										<span>{{ tech.percent }}%</span>
-										</div>
+										</div> -->
 									</div>
 									{{ tech.content }}
 								</div>
@@ -180,8 +180,14 @@
 					<br>
 					<br>
 					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+						<p>{{ site.tech_Bskill }}</p>
+						<p>{{ site.tech_Fskill }}</p>
+						<p>{{ site.tech_Dskill }}</p>
+					</div>
+					<div class="col-md-11 animate-box" data-animate-effect="fadeInLeft">
 						<p>{{ site.tech_desc }}</p>
 					</div>
+					
 				</div>
 			</section>
 

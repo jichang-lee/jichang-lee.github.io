@@ -158,16 +158,16 @@
 				
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>저는 이런 것을 할 수 있습니다.</p>
+							<p><strong>저는 이런 것을 할 수 있습니다.</strong></p>
 							<br>
 						</div><div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 								<div class="progress-wrap">
 									<h3><strong>JAVA</strong></h3>
 									<div class="progress">
-										<div class="progress-bar color-1" role="progressbar" aria-valuenow="60"
+										<!-- <div class="progress-bar color-1" role="progressbar" aria-valuenow="60"
 										aria-valuemin="0" aria-valuemax="100" style="width: 60%">
 										<span>60%</span>
-										</div>
+										</div> -->
 									</div>
 									JAVA 기초와 객제 지향 언어의 기본적인 문법 & 자료구조 및 알고리즘을 자바로 공부하고있습니다.
 								</div>
@@ -176,10 +176,10 @@
 								<div class="progress-wrap">
 									<h3><strong>Spring Boot</strong></h3>
 									<div class="progress">
-										<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+										<!-- <div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
 										aria-valuemin="0" aria-valuemax="100" style="width: 60%">
 										<span>60%</span>
-										</div>
+										</div> -->
 									</div>
 									Spring Boot 웹 프로젝트 경험으로 Spring의 전반적인 구조에 대해서 이해하고 있습니다.
 								</div>
@@ -188,10 +188,10 @@
 								<div class="progress-wrap">
 									<h3><strong>AWS</strong></h3>
 									<div class="progress">
-										<div class="progress-bar color-3" role="progressbar" aria-valuenow="20"
+										<!-- <div class="progress-bar color-3" role="progressbar" aria-valuenow="20"
 										aria-valuemin="0" aria-valuemax="100" style="width: 20%">
 										<span>20%</span>
-										</div>
+										</div> -->
 									</div>
 									AWS EC2를 사용하여 자동화 배포를 한 경험이 있습니다.
 								</div>
@@ -200,10 +200,10 @@
 								<div class="progress-wrap">
 									<h3><strong>Github</strong></h3>
 									<div class="progress">
-										<div class="progress-bar color-4" role="progressbar" aria-valuenow="30"
+										<!-- <div class="progress-bar color-4" role="progressbar" aria-valuenow="30"
 										aria-valuemin="0" aria-valuemax="100" style="width: 30%">
 										<span>30%</span>
-										</div>
+										</div> -->
 									</div>
 									모든 프로젝트를 github를 통해 소스 코드를 관리하였습니다. 협업 당시에는 SourceTree 를 사용하였고, 실제 서비스 배포할 때 어떤 방식으로 반영하는지에 대한 구조를 습득하고 이해하였습니다.
 								</div>
@@ -212,8 +212,14 @@
 					<br>
 					<br>
 					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-						<p>이 외 인턴 활동 당시<strong> javascript, vue.js</strong> 등을 새로 배워가며 공부했습니다.<br>현재는<strong> Java & Spring Boot</strong> 의 기초를 좀 더 가꾸고 있습니다.</p>
+						<p>Backend - JAVA , Spring Boot , Spring Data JPA , Spring MVC , Spring security , Spring Docs</p>
+						<p>Frontend - HTML , CSS , javascripy , Vue.js</p>
+						<p>Dev - intelliJ , visual studio code , MySQL , Sorucetree</p>
 					</div>
+					<div class="col-md-11 animate-box" data-animate-effect="fadeInLeft">
+						<p></p>
+					</div>
+					
 				</div>
 			</section>
 
@@ -426,7 +432,7 @@
 									</div>
 
 									<div class="timeline-label">
-										<h2><a href="#" target="_blank">의정부 을지대학교병원 </a> <span>2021.00 ~ 2022.00</span></h2>
+										<h2><a href="#" target="_blank">의정부 을지대학교병원 </a> <span>2020.08 ~ 2022.08</span></h2>
 										<p>의정부,노원 을지대학교병원 운영 인프라팀<br> * 가상화 Virtual Machine 운영 관리자 <br> * 그룹웨어 전자결재 유형 수정및 개발<br> * 보안 관리 (사용자 website 접근& 프로그램 라이선스 허용/차단 , network IP 할당 및 관리)<br> * 로컬PC & 병원 솔루션 장비 관리 및 정비</p>
 									</div>
 									</div>
