@@ -95,22 +95,22 @@ project_header: PROJECT
 project_introduce: 
 #project_load_more: 앞으로 더 많은 프로젝트가 추가될 예정입니다.    # 더보기 내용
 project_load_more_url: #
-project_my_name: 개인 프로젝트
+# project_my_name: 개인 프로젝트
 
-project_my: # 형식에 맞추어 항목 추가
-# - background_url: images/spring.png
+# project_my: # 형식에 맞추어 항목 추가
+# # - background_url: images/spring.png
+# #   animation: fadeInLeft
+# #   name: Spring WEB site
+# #   description: Spring Framework를 활용한 웹사이트 제작 프로젝트 입니다.
+# #   detail_url: #
+# #   readmore_url: #
+
+# - background_url: images/main1.jpg
 #   animation: fadeInLeft
-#   name: Spring WEB site
-#   description: Spring Framework를 활용한 웹사이트 제작 프로젝트 입니다.
-#   detail_url: #
+#   name: DEV blog
+#   description: 준비중
+#   detail_url: 
 #   readmore_url: #
-
-- background_url: images/main1.jpg
-  animation: fadeInLeft
-  name: DEV blog
-  description: 준비중
-  detail_url: 
-  readmore_url: #
 
 project_team_name: 팀 프로젝트
 project_team: # 형식에 맞추어 항목 추가
@@ -174,8 +174,8 @@ career_list:
   icon: icon-pen2
   animation: fadeInLeft
 - name: JLab Software
-  date: 2023.08 ~ 2023.11
-  content: 웹 프로젝트 수행 및 커스터마이징 개발 (Front)<br> * 글로벌 사업 확장으로 인한 신규 개발<br> * 주문상품,결제내역 조회, CS 1:1 문의 등  <br> <br>프로젝트 기획자와 적극적으로 꾸준히 소통하여 기존에 있던 요구사항 개선 및 상향 경험
+  date: 2023.08 ~ 2023.11 (인턴)
+  content: 웹 프로젝트 수행 및 커스터마이징 개발 (Front)<br> * 글로벌 사업 확장으로 인한 신규 개발<br> * 주문상품,결제내역 조회, CS 1:1 문의 등  <br> <br>프로젝트 기획자와 적극적으로 꾸준히 소통하여 기존에 있던 요구사항 개선 경험
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
@@ -191,7 +191,7 @@ edu_list:
   date: 2015.03 - 2016.02 (중퇴)
   content: 1년 재학 후 군 입대를 하였고, 전공(전기)이 본인에게 맞지 않다고 판단하여 제대 후 자퇴하였습니다. 
 - title:  HIGH SCHOOL
-  subtitle: 의정부공업고등학교
+  subtitle: 의정부공업고등학교 <br>컴퓨터응용기계과
   date: 2011.03 - 2014.02
 - title:  Academy
   subtitle: 노원 그린컴퓨터 학원
@@ -209,7 +209,7 @@ contact_list:
   icon: icon-globe-outline
 - title: +82 10 5165 0048
   icon: icon-phone
-- title: 경기도 의정부시 호원동
+- title: 경기도 의정부시 호원동 31-9
   icon: icon-map
 
 contact_message: <em>연락해주셔서 감사합니다.</em> 24시간이내에 회신드리도록 하겠습니다. :)
