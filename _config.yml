@@ -85,7 +85,7 @@ tech_list: # 형식에 맞추어 항목 추가
   percent: 30
   mark: 30
   content: 모든 프로젝트를 github를 통해 소스 코드를 관리하였습니다. 협업 당시에는 SourceTree 를 사용하였고, 실제 서비스 배포할 때 어떤 방식으로 반영하는지에 대한 구조를 습득하고 이해하였습니다.
-tech_Bskill: Backend - JAVA , Spring Boot , Spring Data JPA , Spring MVC , Spring security , Spring Docs 
+tech_Bskill: Backend - JAVA , Spring Boot , Spring Data JPA , Spring MVC , Spring security , Spring Rest Docs 
 tech_Fskill: Frontend - HTML , CSS , javascript , Vue.js
 tech_Dskill: Dev - intelliJ , visual studio code , MySQL , Sorucetree
 
