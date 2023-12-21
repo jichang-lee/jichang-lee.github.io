@@ -169,7 +169,8 @@
 										<span>60%</span>
 										</div> -->
 									</div>
-									JAVA 기초와 객제 지향 언어의 기본적인 문법 & 자료구조 및 알고리즘을 자바로 공부하고있습니다.
+									JAVA 기초와 객제 지향 언어의 기본적인 문법 & 자료구조 및 알고리즘을 자바로 공부하고있습니다.<br>
+									<br>
 								</div>
 							</div>
 							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
@@ -181,7 +182,8 @@
 										<span>60%</span>
 										</div> -->
 									</div>
-									Spring Boot 웹 프로젝트 경험으로 Spring의 전반적인 구조에 대해서 이해하고 있습니다.
+									Spring Boot 웹 프로젝트 경험으로 Spring의 전반적인 구조에 대해서 이해하고 있습니다.<br>
+									<br>
 								</div>
 							</div>
 							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
@@ -194,6 +196,7 @@
 										</div> -->
 									</div>
 									AWS EC2를 사용하여 자동화 배포를 한 경험이 있습니다.
+									<br>
 								</div>
 							</div>
 							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
@@ -206,6 +209,7 @@
 										</div> -->
 									</div>
 									모든 프로젝트를 github를 통해 소스 코드를 관리하였습니다. 협업 당시에는 SourceTree 를 사용하였고, 실제 서비스 배포할 때 어떤 방식으로 반영하는지에 대한 구조를 습득하고 이해하였습니다.
+									<br>
 								</div>
 							</div>
 							</div>
@@ -447,8 +451,8 @@
 									</div>
 
 									<div class="timeline-label">
-										<h2><a href="#" target="_blank">JLab Software </a> <span>2023.08 ~ 2023.11</span></h2>
-										<p>웹 프로젝트 수행 및 커스터마이징 개발 (Front)<br> * 글로벌 사업 확장으로 인한 신규 개발<br> * 주문상품,결제내역 조회, CS 1:1 문의 등  <br> <br>프로젝트 기획자와 적극적으로 꾸준히 소통하여 기존에 있던 요구사항 개선 및 상향 경험</p>
+										<h2><a href="#" target="_blank">JLab Software </a> <span>2023.08 ~ 2023.11 (인턴)</span></h2>
+										<p>웹 프로젝트 수행 및 커스터마이징 개발 (Front)<br> * 글로벌 사업 확장으로 인한 신규 개발<br> * 주문상품,결제내역 조회, CS 1:1 문의 등  <br> <br>프로젝트 기획자와 적극적으로 꾸준히 소통하여 기존에 있던 요구사항 개선 경험</p>
 									</div>
 									</div>
 								</article>
@@ -622,7 +626,7 @@
 								<div class="colorlib-text">
 									<p>
 										
-											경기도 의정부시 호원동
+											경기도 의정부시 호원동 31-9
 										
 									</p>
 								</div>

@@ -66,13 +66,13 @@ tech_list: # 형식에 맞추어 항목 추가
   animation: fadeInLeft
   percent: 60
   mark: 60
-  content: JAVA 기초와 객제 지향 언어의 기본적인 문법 & 자료구조 및 알고리즘을 자바로 공부하고있습니다.
+  content: JAVA 기초와 객제 지향 언어의 기본적인 문법 & 자료구조 및 알고리즘을 자바로 공부하고있습니다.<br>
 - name: Spring Boot
   color: color-2
   animation: fadeInRight
   percent: 60
   mark: 60
-  content: Spring Boot 웹 프로젝트 경험으로 Spring의 전반적인 구조에 대해서 이해하고 있습니다.
+  content: Spring Boot 웹 프로젝트 경험으로 Spring의 전반적인 구조에 대해서 이해하고 있습니다.<br>
 - name: AWS
   color: color-3
   animation: fadeInLeft
