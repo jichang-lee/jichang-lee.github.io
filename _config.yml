@@ -181,7 +181,7 @@ career_list:
   animation: fadeInLeft
 - name: (주)포유소프트
   date: 2024.02 ~ ing
-  content: 모바일 앱 프로젝트 출시 (Full stack) <br> * 카테고리 별 게시글 로직 개발 <br> * 사업자 조회 페이지 크롤링하여 특정 회원 인증 기능 개발 <br> * 내 정보 조회 기능 개발
+  content: 모바일 앱 신규 프로젝트 (backend) <br> * 사업자 조회 페이지 크롤링하여 특정 회원 인증 기능 개발 <br> 랭킹,뱃지부여 등 스케줄러 및 배치성 개발 <br>특정 카테고리별 조회를 위한 다수(5~6) 테이블 조인 경험 <br> 오픈 후 특정 페이지 진입 속도가 느려, 기존 union all 쿼리를 서브쿼리로 수정하여 속도 6~7초에서 2~3초로 축소 경험
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
