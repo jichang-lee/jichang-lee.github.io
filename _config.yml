@@ -84,10 +84,10 @@ tech_list: # 형식에 맞추어 항목 추가
   animation: fadeInRight
   percent: 30
   mark: 30
-  content: 모든 프로젝트를 github를 통해 소스 코드를 관리하였습니다. 협업 당시에는 SourceTree 를 사용하였고, 실제 서비스 배포할 때 어떤 방식으로 반영하는지에 대한 구조를 습득하고 이해하였습니다.
-tech_Bskill: Backend - JAVA , Spring Boot , Spring Data JPA , Spring MVC , Spring security , Spring Rest Docs , mybatis
+  content: 모든 프로젝트를 github를 통해 소스 코드를 관리하였습니다. 협업 당시에는 gitlab 를 사용하였고, 실제 서비스 배포할 때 merge request,PR 등 어떤 방식으로 반영하는지에 대한 구조를 습득하고 이해하였습니다.
+tech_Bskill: Backend - JAVA , Spring Boot , Spring Data JPA + QueryDSL , Spring MVC , Spring security , Spring Rest Docs
 tech_Fskill: Frontend - javascript , Vue.js & nuxt3 , typescript
-tech_Dskill: Dev - intelliJ , visual studio code , MySQL , Sorucetree
+tech_Dskill: Dev - intelliJ , visual studio code , MySQL , gitlab
 
 # Project
 project_meta: My Work
@@ -126,18 +126,18 @@ project_team: # 형식에 맞추어 항목 추가
   description: 모방하여 팀 프로젝트를 진행하였으며 , 음악 제작을 위한 디지털 믹스테이프를 판매, 제공하는 아티스트 타겟 쇼핑몰 프로젝트 입니다.
   detail_url: https://github.com/jichang-lee/Mixtape-shopping
 
-project_business_name: Business
-project_business: # 형식에 맞추어 항목 추가
-- background_url: images/my_business.PNG
-  animation: fadeInTop
-  name: 인프런강의(2021~)
-  description: >-
-    취준과 대학원진학을 동시에 했을때 많은 곳에서 github 주소뿐만아니라 개발 블로그주소도 요청하는데가 많았다.(물론 필수는 아니였지만) 
-    또한 교육기관(멋쟁이사자처럼,네이버 부스트 캠프, 소마등)에서도 마찬가지이다. 현재 프로그래밍의 중요도가 올라가고있으며 초등학생부터 의무교육을 시작한다고 한다. 
-    많은 비전공자들이 뒤늦게 프로그래밍을 시작하고 있다. 열심히 배우고 지원할려니 개발 블로그를 요청한다... 프로그래밍을 시작할때 알았다면 얼마나 좋았을까. 
-    공부하면서 블로그 내용을 채웠으면 참 좋았을것이다. 이런 흐름을 캐치하여 나는 개발자다운 블로그인 깃헙블로그를 만드는 짧은 강의를 만들었다. 
-  detail_url: #
-  readmore_url: #
+#project_business_name: Business
+#project_business: # 형식에 맞추어 항목 추가
+#- background_url: images/my_business.PNG
+#  animation: fadeInTop
+#  name: 인프런강의(2021~)
+#  description: >-
+#    취준과 대학원진학을 동시에 했을때 많은 곳에서 github 주소뿐만아니라 개발 블로그주소도 요청하는데가 많았다.(물론 필수는 아니였지만)
+#    또한 교육기관(멋쟁이사자처럼,네이버 부스트 캠프, 소마등)에서도 마찬가지이다. 현재 프로그래밍의 중요도가 올라가고있으며 초등학생부터 의무교육을 시작한다고 한다.
+#    많은 비전공자들이 뒤늦게 프로그래밍을 시작하고 있다. 열심히 배우고 지원할려니 개발 블로그를 요청한다... 프로그래밍을 시작할때 알았다면 얼마나 좋았을까.
+#    공부하면서 블로그 내용을 채웠으면 참 좋았을것이다. 이런 흐름을 캐치하여 나는 개발자다운 블로그인 깃헙블로그를 만드는 짧은 강의를 만들었다.
+#  detail_url: #
+#  readmore_url: #
 
 
 # Experience
@@ -181,7 +181,7 @@ career_list:
   animation: fadeInLeft
 - name: (주)포유소프트
   date: 2024.02 ~ ing
-  content: 모바일 앱 신규 프로젝트 (backend) <br> * 사업자 조회 페이지 크롤링하여 특정 회원 인증 기능 개발 <br> 랭킹,뱃지부여 등 스케줄러 및 배치성 개발 <br>특정 카테고리별 조회를 위한 다수(5~6) 테이블 조인 경험 <br> 오픈 후 특정 페이지 진입 속도가 느려, 기존 union all 쿼리를 서브쿼리로 수정하여 속도 6~7초에서 2~3초로 축소 경험
+  content: 모바일 앱 신규 프로젝트 (backend) <br> * 사업자 조회 페이지 크롤링하여 특정 회원 인증 기능 개발 <br> * 랭킹,뱃지부여 등 스케줄러 및 배치성 개발 <br> * 특정 카테고리별 조회를 위한 다수(5~6) 테이블 조인 경험 <br> * 오픈 후 특정 페이지 진입 속도가 느려지는 것을 확인 후, <br> 기존 union all 쿼리를 서브쿼리로 수정하여 속도 6~7초에서 2~3초로 축소 경험
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
