@@ -33,7 +33,8 @@ about_header: >-
 #about_introduce: >-
   
 about_content: >-
-  🐣 안녕하세요! 과정에서 성장과 깨달음을 얻는 것을 좋아하는 신입 백엔드 개발자, 이지창입니다.<br>
+  🐣 안녕하세요! 과정에서 성장과 깨달음을 얻는 것을 좋아하는 신입 백엔드 개발자, @@@입니다.<br>
+#  🐣 안녕하세요! 과정에서 성장과 깨달음을 얻는 것을 좋아하는 신입 백엔드 개발자, 이지창입니다.<br>
   다양한 경험과 새로운 도전을 즐기며, 항상 재미와 흥미를 가지고 개발에 임합니다.<br>
   개발뿐만 아니라 비즈니스의 본질을 이해하여 애정을 갖고 자부심을 느끼는 개발자입니다. <br>
   사람들과 소통하는 것을 좋아하며, 새로운 환경에서도 적극적으로 흥미거리를 공유하고 친밀감을 쌓기 위해 노력합니다. <br>
@@ -173,19 +174,23 @@ tech_Dskill: Learning - Kotlin
 carerr_meta: career
 career_header: Work Career
 career_list:
-- name: 의정부 을지대학교병원    
-  date: 2020.08 ~ 2022.08 
-  content: <strong>의정부,노원 을지대학교병원 운영 인프라팀 </strong> <br> * 가상화 Virtual Machine 운영 관리자 <br> * 그룹웨어 전자결재 유형 수정및 개발<br> * 보안 관리 (사용자 website 접근& 프로그램 라이선스 허용/차단 , network IP 할당 및 관리)<br> * 로컬PC & 병원 솔루션 장비 관리 및 정비
+- name: @@@@
+#- name: 의정부 을지대학교병원
+  date: 2020.08 ~ 2022.08
+  content: <strong>??대학병원 운영 인프라팀 </strong> <br> * 가상화 Virtual Machine 운영 관리자 <br> * 그룹웨어 전자결재 유형 수정및 개발<br> * 보안 관리 (사용자 website 접근& 프로그램 라이선스 허용/차단 , network IP 할당 및 관리)<br> * 로컬PC & 병원 솔루션 장비 관리 및 정비
+#  content: <strong>의정부,노원 을지대학교병원 운영 인프라팀 </strong> <br> * 가상화 Virtual Machine 운영 관리자 <br> * 그룹웨어 전자결재 유형 수정및 개발<br> * 보안 관리 (사용자 website 접근& 프로그램 라이선스 허용/차단 , network IP 할당 및 관리)<br> * 로컬PC & 병원 솔루션 장비 관리 및 정비
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
-- name: (주)제이랩
+- name: @@@@
+#- name: (주)제이랩
   date: 2023.08 ~ 2023.11 (인턴)
   content: <strong>웹 프로젝트 수행 및 커스터마이징 개발 (Front)</strong><br> * 글로벌 사업 확장으로 인한 신규 개발<br> * 주문상품,결제내역 조회, CS 1:1 문의 등  <br> <br>클라이언트 기획자와 꾸준히 소통하여 아이디어 공유 및 기존 요구사항 개선 경험
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
-- name: (주)포유소프트
+- name: @@@@
+#- name: (주)포유소프트
   date: 2024.02 ~ ing
   content: <strong>모바일 앱 신규 프로젝트 (Backend)</strong> <br> * 푸시 및 알림 기능 개발 <br> * 랭킹,뱃지부여 등 스케줄러 및 배치성 개발 <br> * 크롤링을 통해 회원 사업자 인증 기능 <br> * 생물 분류군 카테고리 Key를 이용하여 여러 생물종을 조회할 수 있는 기능 개발 <br><br> <strong> 자격검정시험 사이트 운영개선 및 유지보수 </strong><br> * 합격자 발표 로직 및 쿼리 수정을 통해 서비스 성능 5s -> 2s 개선 경험
   color: color-2
@@ -204,10 +209,12 @@ edu_list:
   date: 2015.03 - 2016.02 (중퇴)
   content: 1년 재학 후 군 입대를 하였고, 전공(전기)이 본인에게 맞지 않다고 판단하여 제대 후 자퇴하였습니다. 
 - title:  HIGH SCHOOL
-  subtitle: 의정부공업고등학교 <br>컴퓨터응용기계과
+  subtitle: 공업고등학교 <br>컴퓨터응용기계과
+#  subtitle: 의정부공업고등학교 <br>컴퓨터응용기계과
   date: 2011.03 - 2014.02
 - title:  Academy
-  subtitle: 노원 그린컴퓨터 학원
+  subtitle: 그린컴퓨터 학원
+#  subtitle: 노원 그린컴퓨터 학원
   date: 2022.11 - 2023.05
   content: JAVA와 Spring Boot를 활용한 웹 백엔드 개발자 양성과정
 
@@ -218,11 +225,14 @@ edu_list:
 contact_meta: Get in Touch
 contact_header: Contact
 contact_list:
-- title: jccc23@naver.com
+- title: xxx@naver.com
+#- title: jccc23@naver.com
   icon: icon-globe-outline
-- title: +82 10 5165 0048
+- title: +82 10 0123 4567
+#- title: +82 10 5165 0048
   icon: icon-phone
-- title: 경기도 의정부시 호원동
+- title: 서울
+#- title: 경기도 의정부시 호원동
   icon: icon-map
 
 #contact_message: <em>연락해주셔서 감사합니다.</em> 24시간이내에 회신드리도록 하겠습니다. :)
