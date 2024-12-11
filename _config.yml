@@ -40,15 +40,15 @@ about_content: >-
   사람들과 소통하는 것을 좋아합니다. 새로운 환경에 있어서 사람들과 서로 흥미거리를 공유하고 친밀감을 가지려
   노력하는 편 입니다. 자연스럽게 대화가 유연해지고 개발자&비개발자 모두 원활하게 소통할 수 있도록 존중하는 마음가짐을 가지고 있습니다.
 
-#about_services: # 형식에 맞추어 항목 추가
-#- icon: icon-code
-#  name: Java
-#- icon: icon-data
-#  name: DB
-#- icon: icon-monitor
-#  name: Web
-#- icon: icon-phone3
-#  name: App
+about_services: # 형식에 맞추어 항목 추가
+- icon: icon-code
+  name: Java
+- icon: icon-data
+  name: DB
+- icon: icon-monitor
+  name: Web
+- icon: icon-phone3
+  name: App
 
 ##about_box_content: 괜찮은 문구 <br>박스 색바꾸는 yml파일에 추가 <br><br><br>야물파일로 변환 <strong>의뢰</strong>의뢰
 ##about_box_button:
@@ -181,7 +181,7 @@ career_list:
   animation: fadeInLeft
 - name: (주)포유소프트
   date: 2024.02 ~ ing
-  content: 모바일 앱 신규 프로젝트 (backend) <br> * 사업자 조회 페이지 크롤링하여 특정 회원 인증 기능 개발 <br> * 랭킹,뱃지부여 등 스케줄러 및 배치성 개발 <br> * 푸시 및 알림 기능 개발 <br> * 로직 및 쿼리 수정을 통해 서비스 성능 5.7s -> 2.3s 개선 경험
+  content: 모바일 앱 신규 프로젝트 (backend) <br> * 로직 및 쿼리 수정을 통해 서비스 성능 5.7s -> 2.3s 개선 경험 <br> * 푸시 및 알림 기능 개발 <br> * 랭킹,뱃지부여 등 스케줄러 및 배치성 개발 <br> * 사업자 조회 페이지 크롤링하여 특정 회원 인증 기능 개발
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
