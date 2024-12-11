@@ -181,13 +181,13 @@ career_list:
   animation: fadeInLeft
 - name: (주)제이랩
   date: 2023.08 ~ 2023.11 (인턴)
-  content: <strong>웹 프로젝트 수행 및 커스터마이징 개발 (Front)</strong><br> * 글로벌 사업 확장으로 인한 신규 개발<br> * 주문상품,결제내역 조회, CS 1:1 문의 등  <br> <br>프로젝트 기획자와 적극적으로 꾸준히 소통하여 기존에 있던 요구사항 개선 경험
+  content: <strong>웹 프로젝트 수행 및 커스터마이징 개발 (Front)</strong><br> * 글로벌 사업 확장으로 인한 신규 개발<br> * 주문상품,결제내역 조회, CS 1:1 문의 등  <br> <br>클라이언트 기획자와 꾸준히 소통하여 아이디어 공유 및 기존 요구사항 개선 경험
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
 - name: (주)포유소프트
   date: 2024.02 ~ ing
-  content: <strong>모바일 앱 신규 프로젝트 (Backend)</strong> <br> * 푸시 및 알림 기능 개발 <br> * 랭킹,뱃지부여 등 스케줄러 및 배치성 개발 <br> * 크롤링을 통해 회원 사업자 인증 기능 <br> * 생물 분류군 카테고리 Key를 이용하여 여러 생물종을 조회할 수 있는 페이지 개발 <br><br> <strong> 자격검정시험 사이트 운영개선 및 유지보수 </strong><br> * 로직 및 쿼리 수정을 통해 서비스 성능 5.7s -> 2.3s 개선 경험
+  content: <strong>모바일 앱 신규 프로젝트 (Backend)</strong> <br> * 푸시 및 알림 기능 개발 <br> * 랭킹,뱃지부여 등 스케줄러 및 배치성 개발 <br> * 크롤링을 통해 회원 사업자 인증 기능 <br> * 생물 분류군 카테고리 Key를 이용하여 여러 생물종을 조회할 수 있는 기능 개발 <br><br> <strong> 자격검정시험 사이트 운영개선 및 유지보수 </strong><br> * 합격자 발표 로직 및 쿼리 수정을 통해 서비스 성능 5s -> 2s 개선 경험
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
