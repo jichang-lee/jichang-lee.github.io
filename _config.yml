@@ -86,7 +86,7 @@ tech_content: 저는 이런 것을 할 수 있습니다.
 #  mark: 30
 #  content: 모든 프로젝트를 github를 통해 소스 코드를 관리하였습니다. 협업 당시에는 gitlab 를 사용하였고, 실제 서비스 배포할 때 merge request,PR 등 어떤 방식으로 반영하는지에 대한 구조를 습득하고 이해하였습니다.
 tech_Bskill: Backend - Java , Spring Boot , Spring Data JPA + QueryDSL, MySQL
-tech_Fskill: Frontend - javascript , Vue.js & nuxt3
+tech_Fskill: Frontend - javascript , Vue3 Composition API
 tech_Dskill: Learning - Kotlin
 
 # Project
