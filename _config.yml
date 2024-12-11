@@ -146,27 +146,27 @@ tech_Dskill: Learning - Kotlin
 #  readmore_url: #
 
 
-# Experience
-exp_meta: What have I achieved?
-exp_header: What I Experienced
-exp_content: 기술력 외에도 이러한 역량을 겸비하고 있습니다. 
-exp_services: # 형식에 맞추어 항목 추가
-- name: 소통력 
-  color: color-2
-  icon: icon-speech-bubble
-  content: 개발은 협업으로 이루어지기에 소통 또한 중요하다고 생각합니다. 활발한 성격으로 소통에 능합니다.
-- name: 습득력
-  color: color-2
-  icon: icon-lightbulb
-  content: 다방면으로 호기심이 많아, 새로운 것을 마주할 때 흥미가 앞서있습니다.
-- name: 책임감 
-  color: color-3
-  icon: icon-book
-  content: 맡은 일에 성실하게 처리하고 주어진 것에 대해 책임감을 갖고 임합니다.
-exp_counters:
-- name: project
-  count: 3
-  speed: 5000
+## Experience
+#exp_meta: What have I achieved?
+#exp_header: What I Experienced
+#exp_content: 기술력 외에도 이러한 역량을 겸비하고 있습니다.
+#exp_services: # 형식에 맞추어 항목 추가
+#- name: 소통력
+#  color: color-2
+#  icon: icon-speech-bubble
+#  content: 개발은 협업으로 이루어지기에 소통 또한 중요하다고 생각합니다. 활발한 성격으로 소통에 능합니다.
+#- name: 습득력
+#  color: color-2
+#  icon: icon-lightbulb
+#  content: 다방면으로 호기심이 많아, 새로운 것을 마주할 때 흥미가 앞서있습니다.
+#- name: 책임감
+#  color: color-3
+#  icon: icon-book
+#  content: 맡은 일에 성실하게 처리하고 주어진 것에 대해 책임감을 갖고 임합니다.
+#exp_counters:
+#- name: project
+#  count: 3
+#  speed: 5000
 
 
 # Career
@@ -175,19 +175,19 @@ career_header: Work Career
 career_list:
 - name: 의정부 을지대학교병원    
   date: 2020.08 ~ 2022.08 
-  content: 의정부,노원 을지대학교병원 운영 인프라팀<br> * 가상화 Virtual Machine 운영 관리자 <br> * 그룹웨어 전자결재 유형 수정및 개발<br> * 보안 관리 (사용자 website 접근& 프로그램 라이선스 허용/차단 , network IP 할당 및 관리)<br> * 로컬PC & 병원 솔루션 장비 관리 및 정비
+  content: <strong>의정부,노원 을지대학교병원 운영 인프라팀 </strong> <br> * 가상화 Virtual Machine 운영 관리자 <br> * 그룹웨어 전자결재 유형 수정및 개발<br> * 보안 관리 (사용자 website 접근& 프로그램 라이선스 허용/차단 , network IP 할당 및 관리)<br> * 로컬PC & 병원 솔루션 장비 관리 및 정비
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
 - name: (주)제이랩
   date: 2023.08 ~ 2023.11 (인턴)
-  content: 웹 프로젝트 수행 및 커스터마이징 개발 (Front)<br> * 글로벌 사업 확장으로 인한 신규 개발<br> * 주문상품,결제내역 조회, CS 1:1 문의 등  <br> <br>프로젝트 기획자와 적극적으로 꾸준히 소통하여 기존에 있던 요구사항 개선 경험
+  content: <strong>웹 프로젝트 수행 및 커스터마이징 개발 (Front)</strong><br> * 글로벌 사업 확장으로 인한 신규 개발<br> * 주문상품,결제내역 조회, CS 1:1 문의 등  <br> <br>프로젝트 기획자와 적극적으로 꾸준히 소통하여 기존에 있던 요구사항 개선 경험
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
 - name: (주)포유소프트
   date: 2024.02 ~ ing
-  content: 모바일 앱 신규 프로젝트 (backend) <br> * 로직 및 쿼리 수정을 통해 서비스 성능 5.7s -> 2.3s 개선 경험 <br> * 푸시 및 알림 기능 개발 <br> * 랭킹,뱃지부여 등 스케줄러 및 배치성 개발 <br> * 사업자 조회 페이지 크롤링하여 특정 회원 인증 기능 개발 <br> 생물 분류군 카테고리 Key를 통해 여러 생물종을 조회할 수 있는 페이지 개발
+  content: <strong>모바일 앱 신규 프로젝트 (Backend)</strong> <br> * 푸시 및 알림 기능 개발 <br> * 랭킹,뱃지부여 등 스케줄러 및 배치성 개발 <br> * 크롤링을 통해 회원 사업자 인증 기능 <br> * 생물 분류군 카테고리 Key를 이용하여 여러 생물종을 조회할 수 있는 페이지 개발 <br> <strong> 자격검정시험 사이트 운영개선 및 유지보수 </strong><br> * 로직 및 쿼리 수정을 통해 서비스 성능 5.7s -> 2.3s 개선 경험
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
