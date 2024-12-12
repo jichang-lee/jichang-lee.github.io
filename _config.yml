@@ -118,19 +118,19 @@ tech_Dskill: Learning - Kotlin
 #   detail_url: 
 #   readmore_url: #
 
-#project_team_name: 팀 프로젝트
-#project_team: # 형식에 맞추어 항목 추가
-#- background_url: images/groupware3.jpg
-#  animation: fadeInRight
-#  name: Groupware(2022.04)
-#  description: 동네 지구대에서 쓸법한 프로젝트입니다.<br> 공지사항 및 캘린더를 통해 서로의 이슈를 확인하고 특정 사건을 확인합니다.
-#  detail_url: https://github.com/jichang-lee/Groupware-Project
-#
-#- background_url: images/mixtape4.png
-#  animation: fadeInRight
-#  name: Mixtape Seoul(2022.03)
-#  description: 모방하여 팀 프로젝트를 진행하였으며 , 음악 제작을 위한 디지털 믹스테이프를 판매, 제공하는 아티스트 타겟 쇼핑몰 프로젝트 입니다.
-#  detail_url: https://github.com/jichang-lee/Mixtape-shopping
+project_team_name: 팀 프로젝트
+project_team: # 형식에 맞추어 항목 추가
+- background_url: images/groupware3.jpg
+  animation: fadeInRight
+  name: Groupware(2022.04)
+  description: 동네 지구대에서 쓸법한 프로젝트입니다.<br> 공지사항 및 캘린더를 통해 서로의 이슈를 확인하고 특정 사건을 확인합니다.
+  detail_url: https://github.com/jichang-lee/Groupware-Project
+
+- background_url: images/mixtape4.png
+  animation: fadeInRight
+  name: Mixtape Seoul(2022.03)
+  description: 모방하여 팀 프로젝트를 진행하였으며 , 음악 제작을 위한 디지털 믹스테이프를 판매, 제공하는 아티스트 타겟 쇼핑몰 프로젝트 입니다.
+  detail_url: https://github.com/jichang-lee/Mixtape-shopping
 
 #project_business_name: Business
 #project_business: # 형식에 맞추어 항목 추가
