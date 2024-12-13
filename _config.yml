@@ -187,7 +187,7 @@ career_list:
   animation: fadeInLeft
 - name: (주)포유소프트
   date: 2024.02 ~ 재직중
-  content: <strong>모바일 앱 신규 프로젝트 (Backend)</strong> <br> * entityManager 단 건 쿼리 및 처리를 <br>   queryDsl Bulk 연산과 동적 조건으로 최적화 및 API 응답속도 4s -> 1s 개선 <br> * 푸시 및 알림 기능 개발 <br> * 랭킹,뱃지부여 등 스케줄러 및 배치성 개발 <br> * 크롤링을 통해 회원 사업자 인증 기능 <br> * 생물 분류군 카테고리 Key를 이용하여 여러 생물종을 조회할 수 있는 기능 개발 <br><br> <strong> 자격검정시험 사이트 운영개선 및 유지보수 </strong><br> * 합격자 발표 쿼리 추가
+  content: <strong>모바일 앱 신규 프로젝트 (Backend)</strong> <br> * EntityManager 단 건 쿼리 및 처리를 <br>   queryDsl Bulk 연산과 동적 조건으로 최적화 및 API 응답속도 4s -> 1s 개선 <br> * FCM을 활용한 푸시 및 알림 기능 개발 <br> * 랭킹,뱃지 부여 등 로직 개발과 이를 자동화하는 스케줄러 및 배치 프로그램 설계 <br> * 크롤링을 활용한 회원 사업자 인증 프로세스 구현 <br> * 생물 분류군 카테고리 키 기반의 다중 생물종 조회 기능 개발 <br><br> <strong> 자격검정시험 사이트 운영개선 및 유지보수 </strong><br> * 합격자 발표 조회 로직 및 DB 프로시저 구현
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
