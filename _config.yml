@@ -119,19 +119,19 @@ tech_Dskill: Learning - Kotlin , Spring
 #   detail_url: 
 #   readmore_url: #
 
-project_team_name: 팀 프로젝트
-project_team: # 형식에 맞추어 항목 추가
-- background_url: images/groupware3.jpg
-  animation: fadeInRight
-  name: Groupware(2022.04)
-  description: 동네 지구대에서 쓸법한 프로젝트입니다.<br> 공지사항 및 캘린더를 통해 서로의 이슈를 확인하고 특정 사건을 확인합니다.
-  detail_url: https://github.com/jichang-lee/Groupware-Project
+# project_team_name: 팀 프로젝트
+# project_team: # 형식에 맞추어 항목 추가
+# - background_url: images/groupware3.jpg
+#   animation: fadeInRight
+#   name: Groupware(2022.04)
+#   description: 동네 지구대에서 쓸법한 프로젝트입니다.<br> 공지사항 및 캘린더를 통해 서로의 이슈를 확인하고 특정 사건을 확인합니다.
+#   detail_url: https://github.com/jichang-lee/Groupware-Project
 
-- background_url: images/mixtape4.png
-  animation: fadeInRight
-  name: Mixtape Seoul(2022.03)
-  description: 모방하여 팀 프로젝트를 진행하였으며 , 음악 제작을 위한 디지털 믹스테이프를 판매, 제공하는 아티스트 타겟 쇼핑몰 프로젝트 입니다.
-  detail_url: https://github.com/jichang-lee/Mixtape-shopping
+# - background_url: images/mixtape4.png
+#   animation: fadeInRight
+#   name: Mixtape Seoul(2022.03)
+#   description: 모방하여 팀 프로젝트를 진행하였으며 , 음악 제작을 위한 디지털 믹스테이프를 판매, 제공하는 아티스트 타겟 쇼핑몰 프로젝트 입니다.
+#   detail_url: https://github.com/jichang-lee/Mixtape-shopping
 
 #project_business_name: Business
 #project_business: # 형식에 맞추어 항목 추가
@@ -189,6 +189,12 @@ career_list:
 - name: (주)포유소프트
   date: 2024.02 ~ 2025.08
   content: <strong>모바일 앱 신규 프로젝트 (Backend)</strong> <br> * EntityManager 단 건 쿼리 및 처리를 <br>   queryDsl Bulk 연산과 동적 조건으로 최적화 및 API 응답속도 4s -> 1s 개선 <br> * FCM을 활용한 푸시 및 알림 기능 개발 <br> * 랭킹,뱃지 부여 등 로직 개발과 이를 자동화하는 스케줄러 및 배치 프로그램 설계 <br> * 크롤링을 활용한 회원 사업자 인증 프로세스 구현 <br> * 생물 분류군 카테고리 키 기반의 다중 생물종 조회 기능 개발 <br><br> <strong> 자격검정시험 사이트 운영개선 및 유지보수 </strong><br> * 합격자 발표 조회 로직 및 DB 프로시저 구현 <br> * 계정 찾기 오류 개선 <br> ➡️ 공공기관에서 발급받은 DI 값과 DB에 저장된 값이 불일치하여 발생한 이슈로 <br> 컬럼 사이즈 확장 , 기존 회원들은 안내페이지와 로그를 추가하여 DI 값 수정- 고객 만족도 향상 경험
+  color: color-2
+  icon: icon-pen2
+  animation: fadeInLeft
+- name: 주식회사 알챗
+  date: 2026-02-01 ~ ing
+  content: <strong>숙박 예약 플랫폼 (Backend / 운영)</strong> <br> * 수수료 부담 주체를 이용자 → 점주로 이관하며 결제·환불·정산 산식 전면 재설계 <br> ➡️ 이용자 수수료 10% 제거 및 숙소별 차등 요율 도입, 결제 시점 요율 스냅샷 기준 정산으로 과환불 차단 <br> ➡️ 운영 정산 18건 신·구 정책 혼재 구간 전수 대조 (manager·admin 18/18 일치) <br> * 숙박 CMS(WingsCMS) 예약·재고·요금 연동 및 객실 자동판매 배치 구축 <br> * CMS 예약 확정 실패 감지 시 주문 전체 취소·전액 환불 자동화 <br> * Redis 락·조건부 UPDATE·Toss 멱등키로 중복 환불·쿠폰 이중 소진 차단 <br> ➡️ 로컬 k6 최대 1,000명 동시 결제에서 재고·쿠폰 정합성 검증 <br><br> <strong>통합 인증 · 제휴 커머스 연동</strong> <br> * 멀티서비스 확장을 위한 Spring Authorization Server 기반 OAuth2/PKCE 통합 인증 서버 신규 구축 <br> * Cafe24 SSO 및 서비스별 회원 식별자 매핑 체계 구현 <br> * Cafe24와 자사 포인트·쿠폰 원장을 연결하는 로열티 연동 서비스 구현 <br> ➡️ Outbox·SQS·상태머신으로 양방향 동기화의 멱등 처리·재시도·수동 검토 흐름 구축 <br><br> <strong>인프라 · 테스트 환경</strong> <br> * RDS Blue/Green 전환으로 MariaDB 업그레이드, 실측 다운타임 12초 <br> * 운영 EKS 1.32 → 1.34 업그레이드, 사용자 대면 무중단 유지 <br> * Testcontainers(MariaDB·Redis·Elasticsearch) 기반 E2E 환경 구축 <br> ➡️ Flyway 마이그레이션 12종의 스키마 반영 결과를 실 DB에서 자동 검증
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
