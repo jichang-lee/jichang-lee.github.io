@@ -92,9 +92,11 @@ tech_content: 저는 이런 것을 할 수 있습니다.
 #  percent: 30
 #  mark: 30
 #  content: 모든 프로젝트를 github를 통해 소스 코드를 관리하였습니다. 협업 당시에는 gitlab 를 사용하였고, 실제 서비스 배포할 때 merge request,PR 등 어떤 방식으로 반영하는지에 대한 구조를 습득하고 이해하였습니다.
-tech_Bskill: Backend - Java , Spring Boot , JPA + QueryDSL, MySQL
-tech_Fskill: Frontend - javascript , Vue3 Composition API
-tech_Dskill: Learning - Kotlin , Spring
+tech_backend: Backend - Java , Kotlin , Spring Boot , JPA + QueryDSL
+tech_data: Data - MariaDB , Redis , Elasticsearch , DynamoDB , Flyway
+tech_infra: Infra - AWS (EKS · Lambda · SQS · Kinesis · S3 · RDS) , Docker , Kubernetes , GitHub Actions
+tech_test: Test - JUnit5 , Testcontainers , k6
+tech_frontend: Frontend - JavaScript , Vue3 Composition API
 
 # Project
 #project_meta: My Work
@@ -194,7 +196,7 @@ career_list:
   animation: fadeInLeft
 - name: 주식회사 알챗
   date: 2026-02-01 ~ ing
-  content: <strong>숙박 예약 플랫폼 (Backend / 운영)</strong> <br> * 수수료 부담 주체를 이용자 → 점주로 이관하며 결제·환불·정산 산식 전면 재설계 <br> ➡️ 이용자 수수료 10% 제거 및 숙소별 차등 요율 도입, 결제 시점 요율 스냅샷 기준 정산으로 과환불 차단 <br> ➡️ 운영 정산 18건 신·구 정책 혼재 구간 전수 대조 (manager·admin 18/18 일치) <br> * 숙박 CMS(WingsCMS) 예약·재고·요금 연동 및 객실 자동판매 배치 구축 <br> * CMS 예약 확정 실패 감지 시 주문 전체 취소·전액 환불 자동화 <br> * Redis 락·조건부 UPDATE·Toss 멱등키로 중복 환불·쿠폰 이중 소진 차단 <br> ➡️ 로컬 k6 최대 1,000명 동시 결제에서 재고·쿠폰 정합성 검증 <br><br> <strong>통합 인증 · 제휴 커머스 연동</strong> <br> * 멀티서비스 확장을 위한 Spring Authorization Server 기반 OAuth2/PKCE 통합 인증 서버 신규 구축 <br> * Cafe24 SSO 및 서비스별 회원 식별자 매핑 체계 구현 <br> * Cafe24와 자사 포인트·쿠폰 원장을 연결하는 로열티 연동 서비스 구현 <br> ➡️ Outbox·SQS·상태머신으로 양방향 동기화의 멱등 처리·재시도·수동 검토 흐름 구축 <br><br> <strong>인프라 · 테스트 환경</strong> <br> * RDS Blue/Green 전환으로 MariaDB 업그레이드, 실측 다운타임 12초 <br> * 운영 EKS 1.32 → 1.34 업그레이드, 사용자 대면 무중단 유지 <br> * Testcontainers(MariaDB·Redis·Elasticsearch) 기반 E2E 환경 구축 <br> ➡️ Flyway 마이그레이션 12종의 스키마 반영 결과를 실 DB에서 자동 검증
+  content: <strong>숙박 예약 플랫폼 (Backend / 운영)</strong> <br> * 수수료 부담 주체를 이용자 → 점주로 이관하며 결제·환불·정산 산식 전면 재설계 <br> ➡️ 이용자 수수료 10% 제거 및 숙소별 차등 요율 도입, 결제 시점 요율 스냅샷 기준 정산으로 과환불 차단 <br> ➡️ 운영 정산 18건 신·구 정책 혼재 구간 전수 대조 (manager·admin 18/18 일치) <br> * 숙박 CMS(WingsCMS) 예약·재고·요금 연동 및 객실 자동판매 배치 구축 <br> * CMS 예약 확정 실패 감지 시 주문 전체 취소·전액 환불 자동화 <br> * Redis 락·조건부 UPDATE·Toss 멱등키로 중복 환불·쿠폰 이중 소진 차단 <br> ➡️ 로컬 k6 최대 1,000명 동시 결제에서 재고·쿠폰 정합성 검증 <br><br> <strong>통합 인증 · 제휴 커머스 연동</strong> <br> * 멀티서비스 확장을 위한 Spring Authorization Server 기반 OAuth2/PKCE 통합 인증 서버 신규 구축 <br> * Cafe24 SSO 및 서비스별 회원 식별자 매핑 체계 구현 <br> * Cafe24와 자사 포인트·쿠폰 원장을 연결하는 로열티 연동 서비스 구현 <br> ➡️ Outbox·SQS·상태머신으로 양방향 동기화의 멱등 처리·재시도·수동 검토 흐름 구축 <br><br> <strong>인프라 · 테스트 환경</strong> <br> * RDS Blue/Green 전환으로 MariaDB 업그레이드, 실측 다운타임 12초 <br> * 운영 EKS 1.32 → 1.34 업그레이드, 사용자 대면 무중단 유지 <br> * CDC 파이프라인(DMS · Kinesis · Lambda · Elasticsearch) 운영 및 도메인 전환 대응 <br> ➡️ 운영 콘솔에만 반영돼 있던 Lambda 코드를 저장소와 동기화해 형상 불일치 해소 <br> * Testcontainers(MariaDB·Redis·Elasticsearch) 기반 E2E 환경 구축 <br> ➡️ Flyway 마이그레이션 12종의 스키마 반영 결과를 실 DB에서 자동 검증
   color: color-2
   icon: icon-pen2
   animation: fadeInLeft
