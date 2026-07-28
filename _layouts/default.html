@@ -254,6 +254,34 @@
 										</div>
 
 										<div class="timeline-label">
+											<h2><a href="#" target="_blank">잠바구니</a></h2>
+											<p>숙박 예약·결제 플랫폼입니다. 숙박 CMS 연동부터 예약·결제·정산, 통합 인증과 제휴 커머스 연동까지 백엔드 전반을 담당하고 있습니다.<br><br> * Spring Boot 멀티모듈(API·배치·채팅) 환경에서 예약·결제·정산 도메인 담당<br> * 숙박 CMS(WingsCMS)와 객실 재고·요금·예약을 실시간 동기화하고 자동판매 배치 운영<br> * Toss Payments 결제·환불, 쿠폰·포인트 정책, 숙소 정산까지 금액 흐름 전 구간 설계<br> ➡️ 수수료 부담 주체 전환(이용자 → 점주)을 결제·환불·정산에 일관 반영하고 운영 정산 18건 전수 대조 검증<br> ➡️ Redis 락·멱등키로 중복 환불·쿠폰 이중 소진 차단, k6 1,000명 동시 결제 정합성 검증<br> * AWS EKS·SQS·RDS·Elasticsearch 운영 환경에서 배포 및 장애 대응 수행</p>
+										</div>
+									</div>
+								</article>
+
+								<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft"> <!-- 왼쪽에서 -->
+									<div class="timeline-entry-inner">
+
+										<div class="timeline-icon color-1">
+											<i class="icon-battery"></i>
+										</div>
+
+										<div class="timeline-label">
+											<h2><a href="#" target="_blank">통합 인증 서버 · 제휴 커머스 연동</a></h2>
+											<p>여러 서비스가 하나의 계정 체계를 공유하도록 인증 서버를 신규 구축하고, 외부 커머스 채널과 회원 혜택을 연동한 프로젝트입니다.<br><br> * Spring Authorization Server 기반 OAuth2/PKCE 인증 서버 신규 구축 (Java 25 · Spring Boot 4 · PostgreSQL)<br> * 서비스별 회원 식별자 매핑 체계를 설계해 기존 회원 체계를 유지한 채 SSO 전환<br> * Cafe24와 자사 포인트·쿠폰 원장을 연결하는 로열티 연동 서비스 구현<br> ➡️ Outbox·SQS·상태머신으로 양방향 동기화의 멱등 처리·재시도·수동 검토 흐름 구축</p>
+										</div>
+									</div>
+								</article>
+
+								<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft"> <!-- 왼쪽에서 -->
+									<div class="timeline-entry-inner">
+
+										<div class="timeline-icon color-1">
+											<i class="icon-battery"></i>
+										</div>
+
+										<div class="timeline-label">
 											<h2><a href="#" target="_blank">지구사랑탐사대 </a></h2>
 											<p> 아이들이 여러 생물들을 탐사하여 쉽고 간편하게 기록할 수 있는<br> 어플리케이션과 관리자 페이지, API 설계 및 개발을 하였습니다. <br><br> * 약 5만개의 생물 카테고리를 원하는 분류군에 맞게 쉽고 간편하게 조회할 수 있는 쿼리 작성 및 공유<br> * Bulk 연산자를 도입 및 공유하여 프로젝트 성능 개선 <br> * FCM을 이용한 알람 및 푸시 기능 개발 <br> * 랭킹,뱃지 부여, 모임 상태 변경 등 배치성 자동화 스케줄러 개발</p>
 										</div>
